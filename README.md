@@ -64,19 +64,15 @@ Course Provider: IBM<br>
 
 ## Information about the Project
 ### General
-- Client: Myself
 - Project Goal: Develop an AI-based web application. Practice working with APIs, the Flask and Unittest frameworks as well as deploying an application.
-- Number of Project Participants: 1 (Template forked from another repository. Developed the rest on my own)
 - Time Period: September, 2024
-- Industry / Area: Web Development
-- Role: Lead Developer
-- Languages: English
+- Industry / Area: AI Engineer
 - Result: Deployment of an AI-based web application. Significantly improved understanding of APIs and the Flask and Unittest frameworks.
 <br>
 
 
 ### Tech Stack
-With regard to my role:
+For this project used tech stacks:
 - HTML
 - CSS
 - JavaScript
@@ -103,8 +99,3 @@ Visit the link for more information: https://github.com/ibm-ecosystem-engineerin
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
 <br>
-
-
-## Contact
-If you have any questions, please feel free to reach out via email: christian-schwanse (at) gmx.net
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
