@@ -42,12 +42,6 @@ Enter any text in the text field (for example “I am having fun!”) and press 
 The emotion with the highest score is the dominant emotion.
 <br>
 <br>
-Further examples:
-
-![Result I really hate bugs](https://github.com/user-attachments/assets/398c583f-2157-4948-9681-85985a24e413)
-
-![Result Iam going to puke](https://github.com/user-attachments/assets/1013a248-ca68-4d0b-b68a-f8cf3d14d63a)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
 <br>
@@ -65,14 +59,25 @@ Course Provider: IBM<br>
 ## Information about the Project
 ### General
 - Project Goal: Develop an AI-based web application. Practice working with APIs, the Flask and Unittest frameworks as well as deploying an application.
+<<<<<<< HEAD
 - Time Period: September, 2024
 - Industry / Area: AI Engineer
+=======
+- Number of Project Participants: 1 (Template forked from another repository. Developed the rest on my own)
+- Industry / Area: Web Development
+- Role: Lead Developer
+- Languages: English
+>>>>>>> ab793a6 (all new updates until stage 6)
 - Result: Deployment of an AI-based web application. Significantly improved understanding of APIs and the Flask and Unittest frameworks.
 <br>
 
 
 ### Tech Stack
+<<<<<<< HEAD
 For this project used tech stacks:
+=======
+For this Project Used:
+>>>>>>> ab793a6 (all new updates until stage 6)
 - HTML
 - CSS
 - JavaScript
@@ -99,3 +104,8 @@ Visit the link for more information: https://github.com/ibm-ecosystem-engineerin
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
 <br>
+<<<<<<< HEAD
+=======
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+>>>>>>> ab793a6 (all new updates until stage 6)
