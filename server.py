@@ -1,24 +1,27 @@
-"""Server for Depolyment"""
+"""Server for Web Deployment"""
 
-from flask import Flask, request, render_template
-from from emotion_detection import emotion_detector
-
-app = Flask("emotion Detecton")
+from flask import Flask, render_template, request
+from emotion_detection.emotion_detection import emotion_detector
 
 
-# Define the homepage (index route)
+app = Flask("Emotion Detection")
+
+
 @app.route('/')
 def render_homepage():
+    """ Render homepage """
     return render_template("index.html")
 
-@app.route('/emotionDetector', methods=["Get"])
-def emotion_analysis() -> str:
 
+@app.route('/emotionDetector', methods=["GET"])
+def emotion_analysis() -> str:
+    """ Analyze text and return emotion detection (analysis result) """
     text_to_analyze = request.args["textToAnalyze"]
     analysis_result = emotion_detector(text_to_analyze)
 
+
     if analysis_result["dominant_emotion"] is None:
-        response "your Text is wrong, please try again!"
+        response = "your text is wrong, please try again!"
     else:
         response = "For the given statement, the system response is"
 
@@ -37,6 +40,5 @@ def emotion_analysis() -> str:
     return response
 
 
-# directly (not imported as a module)
 if __name__ == "__main__":
     app.run(debug = True)
