@@ -60,14 +60,13 @@ Course Provider: IBM<br>
 ### General
 - Project Goal: Develop an AI-based web application. Practice working with APIs, the Flask and Unittest frameworks as well as deploying an application.
 <<<<<<< HEAD
-- Time Period: September, 2024
+- Time Period: October, 2025
 - Industry / Area: AI Engineer
 =======
 - Number of Project Participants: 1 (Template forked from another repository. Developed the rest on my own)
 - Industry / Area: Web Development
 - Role: Lead Developer
-- Languages: English
->>>>>>> ab793a6 (all new updates until stage 6)
+>>>>>>>  (all new updates until stage 6)
 - Result: Deployment of an AI-based web application. Significantly improved understanding of APIs and the Flask and Unittest frameworks.
 <br>
 
