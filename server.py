@@ -19,9 +19,9 @@ def emotion_analysis() -> str:
     text_to_analyze = request.args["textToAnalyze"]
     analysis_result = emotion_detector(text_to_analyze)
 
-
+# For status_code = 400
     if analysis_result["dominant_emotion"] is None:
-        response = "your text is wrong, please try again!"
+        response = "Invalid text! Please try again!"
     else:
         response = "For the given statement, the system response is"
 
